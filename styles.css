@@ -8,7 +8,7 @@ h1 {
 body {
     background-color:rgb(243, 234, 186);
 }
-#boba {
+.description {
     text-align:center;
     background-color:rgb(244, 238, 189);
     margin-left: 150px;
@@ -48,6 +48,6 @@ a:hover{
     color:rgb(83, 81, 81);
 }
 #images img{
-    width:auto;
+    width: 250px;
     height:250px;
 }

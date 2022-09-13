@@ -3,17 +3,35 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="./styles.css">
     </head>
     
     <body>
         <h1>Odin Recipes</h1>
-        <ul>
-            <img src="./img/boba.jpeg" alt="cups of boba">
-            <li><a href="./recipes/boba.html"> Boba Tea Recipe </a></li>
-            <img src="./img/protein-pancakes.jpeg" alt="protein pancakes">
-            <li><a href="./recipes/protein-pancake.html"> Flourless Protein Pancake Recipe </a></li>
-            <img src="./img/egg-salad-sandwich.jpeg" alt="egg salad sandwich"> 
-            <li><a href="./recipes/egg-salad-sandwich.html">Best Darn Egg Salad Sandwich Recipe</a></li>
-        </ul>
+        <div>
+            <a href="./recipes/boba.html"> Boba Tea Recipe </a>
+            <img class="boba-pic" src="img/boba.jpeg" alt="cup of boba"><br>
+
+            <a href="./recipes/protein-pancake.html"> Flourless Protein Pancake Recipe </a>
+            <img class="pancake-pic" src="./img/protein-pancakes.jpeg" alt="protein pancakes"><br>
+
+            <a href="./recipes/egg-salad-sandwich.html">Best Darn Egg Salad Sandwich Recipe</a>
+            <img class="sandwich-pic" src="./img/egg-salad-sandwich.jpeg" alt="egg salad sandwich"><br>
+        </div>
+        
+        <div id="images">
+            <a href="./recipes/boba.html">
+                <img src="./img/boba.jpeg" alt="cup of boba">
+                <div class="caption">Boba Tea Recipe</div>
+            </a>
+            <a href="./recipes/protein-pancake.html">
+                <img src="./img/protein-pancakes.jpeg" alt="pancakes">
+                <div class="caption">Flourless Protein Pancakes</div>
+            </a>
+            <a href="./recipes/egg-salad-sandwich.html">
+                <img src="./img/egg-salad-sandwich.jpeg" alt="egg salad sandwich">
+                <div class="caption">Egg Salad Sandwich</div>
+            </a>
+        </div>
     </body>
 </html>

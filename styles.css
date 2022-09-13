@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    color:rgb(238, 232, 178);
+    background-color:rgba(208, 143, 5, 0.605);
+    font-size:48px;
+    font-family: Georgia, serif;
+
+}
+div {
+    text-align:center;
+}
+body {
+    background-color:rgb(243, 234, 186);
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color:rgb(11, 10, 10);
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+.boba-pic {
+    width: 250px;
+    height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.pancake-pic {
+    width: 250px;
+    height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.sandwich-pic {
+    width: 250px;
+    height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#images{
+    text-align:center;
+    margin:50px auto;
+    font-family: Georgia, serif;
+}
+#images a{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:rgb(83, 81, 81);
+}
+#images img{
+    width:auto;
+    height:250px;
+}

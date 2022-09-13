@@ -3,14 +3,14 @@ h1 {
     color:rgb(238, 232, 178);
     background-color:rgba(208, 143, 5, 0.605);
     font-size:48px;
-    font-family: Georgia, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
     background-color:rgb(243, 234, 186);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .description {
     text-align:center;
-    background-color:rgb(244, 238, 189);
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -20,7 +20,7 @@ body {
     background-color:rgb(238, 232, 178);
     margin-left: 150px;
     margin-right: 150px;
-    padding: 2px;
+    padding: 1px 15px;
 }
 .pages {
     background-color:rgba(208, 143, 5, 0.605);

@@ -4,14 +4,26 @@ h1 {
     background-color:rgba(208, 143, 5, 0.605);
     font-size:48px;
     font-family: Georgia, serif;
-
 }
 body {
     background-color:rgb(243, 234, 186);
 }
-div .method {
-    text-align:right;
+.method {
+    text-align:center;
     list-style-position:inside;
+}
+.pages {
+    background-color:rgba(208, 143, 5, 0.605);
+    text-align:center;
+}
+.pages a{
+    text-decoration:none;
+    display:inline-block;
+    margin:7px;
+    color:rgb(238, 232, 178);
+}
+a:hover{
+    color:white;
 }
 
 #images{

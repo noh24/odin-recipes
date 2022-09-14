@@ -1,18 +1,49 @@
+body {
+    background-color:rgb(243, 234, 186);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+}
+nav a:hover{
+    color:white;
+}
+nav {
+    background-color:rgba(208, 143, 5, 0.605);
+    text-align:center;
+}
+nav a{
+    text-decoration:none;
+    display:inline-block;
+    margin:7px;
+    color:rgb(238, 232, 178);
+}
+img {
+    margin: 30px auto;
+    display:block;
+    width:250px;
+    height:250px;
+}
 h1 {
+    padding: 5px;
     text-align: center;
     color:rgb(238, 232, 178);
     background-color:rgba(208, 143, 5, 0.605);
     font-size:48px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body {
-    background-color:rgb(243, 234, 186);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.description {
+
+.recipes{
     text-align:center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin:50px auto;
+    font-family: Georgia, serif;
+}
+.recipes a{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(24, 22, 22);
+}
+.recipes img{
+    width: 250px;
+    height:250px;
 }
 .method {
     text-align:left;
@@ -21,33 +52,4 @@ body {
     margin-left: 150px;
     margin-right: 150px;
     padding: 1px 15px;
-}
-.pages {
-    background-color:rgba(208, 143, 5, 0.605);
-    text-align:center;
-}
-.pages a{
-    text-decoration:none;
-    display:inline-block;
-    margin:7px;
-    color:rgb(238, 232, 178);
-}
-a:hover{
-    color:white;
-}
-
-#images{
-    text-align:center;
-    margin:50px auto;
-    font-family: Georgia, serif;
-}
-#images a{
-    margin:0px 20px;
-    display:inline-block;
-    text-decoration:none;
-    color:rgb(83, 81, 81);
-}
-#images img{
-    width: 250px;
-    height:250px;
 }
